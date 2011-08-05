@@ -3,7 +3,7 @@
 class DB
 {
 	/*** mysql hostname ***/
-	private $hostname = 'localhost'; // Put your host name here
+	private $hostname = 'localhost:/tmp/mysql/chi.sock'; // Put your host name here
 	
 	/*** mysql username ***/
 	private $username = 'isadora'; // Put your MySQL User name here
