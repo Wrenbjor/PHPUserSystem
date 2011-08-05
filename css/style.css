@@ -14,8 +14,8 @@ body
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=0 ); /* IE6-9 */
 	background: linear-gradient(top, #cedce7 0%,#596a72 100%); /* W3C */
 	
-	width:200px;
-	height:120px;
+	width:400px;
+	height:220px;
 	
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -24,6 +24,8 @@ body
 	-webkit-box-shadow: 5px 5px 8px 0px #000000;
 	-moz-box-shadow: 5px 5px 8px 0px #000000;
 	box-shadow: 5px 5px 8px 0px #000000;
+	
+	margin:auto;
 }
 
 #loginBox a
