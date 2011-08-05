@@ -16,7 +16,7 @@ $db->runQuery($UserTable);
 $UserTableTruncate = "TRUNCATE TABLE users";
 $db->runQuery($UserTableTruncate);
 
-$AdminAccount = "INSERT INTO users (user_name, first_name, last_name, email_address) VALUES('Admin', 'Demo', 'Admin', 'Admin@PHPUserSystem.fake.com')"
+$AdminAccount = "INSERT INTO users (user_name, first_name, last_name, email_address) VALUES('Admin', 'Demo', 'Admin', 'Admin@PHPUserSystem.fake.com')";
 $db->runQuery($AdminAccount);
 
 ?>
