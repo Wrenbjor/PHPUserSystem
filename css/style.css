@@ -1,6 +1,11 @@
 body
 {
 	background: #cedce7; /* Old browsers */
+}
+
+#loginBox
+{
+	background: #cedce7; /* Old browsers */
 	background: -moz-linear-gradient(top, #cedce7 0%, #596a72 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cedce7), color-stop(100%,#596a72)); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top, #cedce7 0%,#596a72 100%); /* Chrome10+,Safari5.1+ */
@@ -8,5 +13,21 @@ body
 	background: -ms-linear-gradient(top, #cedce7 0%,#596a72 100%); /* IE10+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=0 ); /* IE6-9 */
 	background: linear-gradient(top, #cedce7 0%,#596a72 100%); /* W3C */
+	
+	width:200px;
+	height:120px;
+	
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+	-webkit-box-shadow: 5px 5px 8px 0px #000000;
+	-moz-box-shadow: 5px 5px 8px 0px #000000;
+	box-shadow: 5px 5px 8px 0px #000000;
 }
 
+#loginBox a
+{
+	text-decoration:none;
+	color:#000;
+}
