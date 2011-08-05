@@ -7,9 +7,21 @@ include("setup.php");
 <head>
     <title>PHP User System</title>
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h2>PHP User System Empty Page</h2>
+    <header>
+        <h2>PHP User System Empty Page</h2>
+    </header>
+    
+    <div id="loginBox">
+        <form method="POST">
+            <label class="loginLable">User Name:</label> <input name="user_name" type="text"><br>
+            <label class="loginLable">Password:</label> <input name="password" type="password">
+        </form>
+        <h3><a href="register.php">CLick here to create an account</a></h3>
+    </div>
+    
 </body>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
 <script>
