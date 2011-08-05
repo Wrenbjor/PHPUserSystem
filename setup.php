@@ -7,7 +7,7 @@ $db = NEW DB;
 
 // Create the main user table. This table will hold the basic user data that will be accessed by the Users.php Class file
 
-$UserTable = "CREATE TABLE IF NOT EXISTS users( uid int NOT NULL AUTO_INCREMENT PRIMARY KEY, user_name VARCHAR(100), first_name VARCHAR(100), last_name VARCHAR(100), email_address VARCHAR(200), profile_pic blob, passwd VARCHAR(255))"
+$UserTable = "CREATE TABLE IF NOT EXISTS users( uid int NOT NULL AUTO_INCREMENT PRIMARY KEY, user_name VARCHAR(100), first_name VARCHAR(100), last_name VARCHAR(100), email_address VARCHAR(200), profile_pic blob, passwd VARCHAR(255))";
 
 $db->runQuery($UserTable);
 
