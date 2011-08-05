@@ -3,7 +3,7 @@
 class DB
 {
 	/*** mysql hostname ***/
-	private $hostname = 'localhost:/tmp/mysql/chi.sock'; // Put your host name here
+	private $hostname = 'localhost'; // Put your host name here
 	
 	/*** mysql username ***/
 	private $username = 'isadora'; // Put your MySQL User name here
@@ -21,7 +21,7 @@ class DB
 	{
 		try
 		{
-			$this->dbh = new PDO("mysql:host=$this->hostname;dbname=$this->dbName", $this->username, $this->password);
+			$this->dbh = new PDO("mysql:host=$this->hostname;dbname=$this->dbName;unix_socket=/tmp/mysql/chi.sock", $this->username, $this->password);
 			/*** echo a message saying we have connected ***/
 			//echo 'Connected to database'; // Test with this string
 		}
