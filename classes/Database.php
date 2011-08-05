@@ -6,13 +6,13 @@ class DB
 	private $hostname = 'localhost'; // Put your host name here
 	
 	/*** mysql username ***/
-	private $username = 'username'; // Put your MySQL User name here
+	private $username = 'isadora'; // Put your MySQL User name here
 	
 	/*** mysql password ***/
-	private $password = 'password'; // Put Your MySQL Password here
+	private $password = 'z98M3Koc'; // Put Your MySQL Password here
 	
 	/*** mysql password ***/
-	private $dbName = 'db'; // Put Your MySQL Database name here
+	private $dbName = 'chi'; // Put Your MySQL Database name here
 		
 	/*** database resource ***/
 	public $dbh = NULL; // Database handler

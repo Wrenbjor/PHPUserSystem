@@ -1,3 +1,7 @@
+<?
+//Initial Database setup. Remove This line once you have customized the setup page and ran it at least once.
+include("setup.php");
+?>
 <!DOCTYPE html>
 <html>
 <head>
