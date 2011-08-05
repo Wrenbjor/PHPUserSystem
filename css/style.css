@@ -33,3 +33,8 @@ body
 	text-decoration:none;
 	color:#000;
 }
+
+#loginBox form
+{
+	margin:10px auto;
+}
